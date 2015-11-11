@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html class="uk-height-1-1">
+  <head>
+    {{partial "style-script.html" .}}
+
+    <style>
+      .front-image{
+        background-image:url("/images/2012-07-15 03.59.28.jpg");
+        height:341px;
+        background-size: cover;
+      }
+
+      .tm-main{
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body class="">
+
+    <div class="uk-grid">
+        <div class="uk-width-1-1" >
+          <div class="uk-container-center">
+            {{partial "menu.html" .}}
+          </div>
+        </div>
+
+      <div class="uk-width-1-1 front-image">
+        <!-- <div class="uk-width-3-10 aiyappa"></div> -->
+      </div>
+
+      <div class="uk-width-1-1 uk-grid uk-container-center tm-main">
+        <div class="uk-width-3-10">
+          <ul class="uk-slideshow" data-uk-slideshow="{autoplay:true}" style="height:200px;">
+              <li><img height="200" width="150" src="/images/new966.jpg" alt="Hi"></li>
+              <li><img height="200" width="150" src="/images/img3.jpg" ></li>
+
+              <li ><img height="200" width="150" src="/images/front-ayyappa-logo.jpg" ></li>
+          </ul>
+        </div>
+        <div class="uk-width-7-10 uk-grid-small">
+          <h2 style="line-height:37px;">Kerala Mini Sabarimala is the only International Research Center blessed by  Panthalam Valiyarajah His Holiness Ramavarma Thamburaan,  and directed by Sabarimala Tantri Brhammasri Kandaruru Rajeeveruru where every devotee is permitted to perform Gee Abhisheka stepping Holy eighteen steps  irrespective of Cast, Creed, Religion and Nationality. This is managed by Ayyappa Seva Ashramam (only aashramam in the world on the name of  Bhagavan Ayyappsa) which is an independent shelter center, formed to study, teach, practice and propagate Sanathana Dharma and Ayyappa Cult for the Integration and Harmony of Humanity and Brotherhood.</h2>
+        </div>
+      </div>
+    </div>
+
+    {{partial "footer.html" .}}
+  </body>
+</html>
